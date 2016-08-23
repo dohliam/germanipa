@@ -7,6 +7,5 @@ if __name__ == "__main__":
         a = '\n'.join(iter(raw_input, sentinel))
         if a == "":
             break
-        print a
         b = Text(a.decode('utf8'))
         b.print_ipa()
