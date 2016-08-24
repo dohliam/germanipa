@@ -39,6 +39,7 @@ Process finished with exit code 0
 
 ## Credits
 * [DKpro JWKTL](https://dkpro.github.io/dkpro-jwktl/)
+
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
