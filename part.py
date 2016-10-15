@@ -74,7 +74,7 @@ class Pref(Part):
             else:
 
                 # remove stress from first prefix if it has one
-                if newipa[0] == "ˈ":
+                if newipa[0].encode('utf-8') == "ˈ":
                     newipa = newipa[1:]
 
                 # check if previous pref was special case: 'hin', 'her', 'dar' or 'vor'

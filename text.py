@@ -44,6 +44,16 @@ class Text(object):
             else:
                 print (line.adjustedline)
 
+    def print_dict_ipa(self):
+        """
+        Prints each line of text with IPA separated by tabs.
+        """
+        for line in self.each_line:
+            if not (line.adjustedline.isspace() or (line.adjustedline == '')):
+                print (line.adjustedline + "\t" + line.ipa).encode('utf-8')
+            else:
+                print (line.adjustedline)
+
 
 class Line(object):
     """
